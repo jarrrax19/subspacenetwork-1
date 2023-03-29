@@ -17,7 +17,7 @@ sleep 1 && curl -s https://api.nodes.guru/logo.sh | bash && sleep 1
 
 sudo apt update && sudo apt install ocl-icd-opencl-dev libopencl-clang-dev libgomp1 -y
 cd $HOME
-wget -O subspace-cli https://github.com/subspace/subspace-cli/releases/download/v0.1.9-alpha/subspace-cli-Ubuntu-x86_64-v0.1.9-alpha
+wget -O subspace-cli https://github.com/subspace/subspace-cli/releases/download/v0.1.12/subspace-cli-ubuntu-x86_64-v3-v0.1.12
 sudo chmod +x subspace-cli
 sudo mv subspace-cli /usr/local/bin/
 sudo rm -rf $HOME/.config/subspace-cli
